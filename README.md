@@ -14,19 +14,19 @@ Aquí escribe qué necesitas que instale para ejecutar tu código:
 
 - import pandas as pd
  
--import numpy as np
+- import numpy as np
 
--import yfinance as yf
+- import yfinance as yf
 
--import matplotlib.pyplot as plt
+- import matplotlib.pyplot as plt
 
--%matplotlib inline
+- %matplotlib inline
 
--%config InlineBackend.figure_format='retina'
+- %config InlineBackend.figure_format='retina'
 
--import warnings
+- import warnings
 
--warnings.filterwarnings("ignore")
+- warnings.filterwarnings("ignore")
 
 
 ## Visualiza el precio de las acciones del S&P500 de los últimos 5 años, ¿dependen del precio anterior? ¿cómo argumentarías tu respuesta matemáticamente?
