@@ -14,12 +14,19 @@ Escribe tus integrantes iniciando por apellido de forma alfabética
 Aquí escribe qué necesitas que instale para ejecutar tu código:
 
 - import pandas as pd
+ 
 -import numpy as np
+
 -import yfinance as yf
+
 -import matplotlib.pyplot as plt
+
 -%matplotlib inline
+
 -%config InlineBackend.figure_format='retina'
+
 -import warnings
+
 -warnings.filterwarnings("ignore")
 
 (Si no eliminas esta línea lloro) Y dime cómo debería ejecutar tu código y en qué orden. Recuerda que antes de ejecutar tu código leeré tu `README.md`. Por ejemplo la manera en la que propongo que organizes tu código es
