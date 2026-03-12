@@ -34,7 +34,7 @@ El precio del S&P500 muestra una fuerte dependencia temporal. Matemáticamente p
 
 
 ## Visualiza el precio de las acciones del S&P500 de los últimos 5 años, ¿los rendimientos de las acciones del S&P500 de los últimos 5 años dependen del rendimiento anterior? ¿cómo argumentarías tu respuesta matemáticamente?
-
+A diferencia de los precios, los rendimientos del S&P500 presentan muy poca autocorrelación. Empíricamente se observa que $Corr(r_t,r_{t-1}\approx 0 $ Esto sugiere que los rendimientos se comportan como una variable aproximadamente independiente en el tiempo, consistente con la hipótesis de mercado eficiente.
 
 ## ¿Cómo intentarías predecir los rendimientos del S&P500?
 
