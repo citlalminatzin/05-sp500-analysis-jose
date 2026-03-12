@@ -2,18 +2,16 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23102957)
 # Ánalisis S&P500
 
-(Si no eliminas esta línea lloro) Este es un archivo de ejemplo donde debes de colocar la respuesta a tus ejercicios, piénsalo como tu reporte de práctica. Aquí puedes introducir el problema y definir los términos que consideres apropiados de forma concisa.
 
 ## Integrantes
+Escribe tus integrantes iniciando por apellido de forma alfabética
 
-(Si no eliminas esta línea lloro) Escribe tus integrantes iniciando por apellido de forma alfabética
-
-- José de Jesús Hernández Coutiño
+- Hernández Coutiño José de Jesús 
 
 
 ## Uso e instalación
 
-(Si no eliminas esta línea lloro) Aquí escribe qué necesitas que instale para ejecutar tu código, por ejemplo:
+Aquí escribe qué necesitas que instale para ejecutar tu código:
 
 - import pandas as pd
 -import numpy as np
