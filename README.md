@@ -30,7 +30,7 @@ Aquí escribe qué necesitas que instale para ejecutar tu código:
 
 
 ## Visualiza el precio de las acciones del S&P500 de los últimos 5 años, ¿dependen del precio anterior? ¿cómo argumentarías tu respuesta matemáticamente?
-
+El precio del S&P500 muestra una fuerte dependencia temporal. Matemáticamente puede modelarse como un paseo aleatorio $P_t=P_{t-1}+\gamma_t$.La autocorrelación entre precios consecutivos es alta, lo que indica que el precio actual depende del precio anterior.
 
 
 ## Visualiza el precio de las acciones del S&P500 de los últimos 5 años, ¿los rendimientos de las acciones del S&P500 de los últimos 5 años dependen del rendimiento anterior? ¿cómo argumentarías tu respuesta matemáticamente?
