@@ -4,7 +4,6 @@
 
 
 ## Integrantes
-Escribe tus integrantes iniciando por apellido de forma alfabética
 
 - Hernández Coutiño José de Jesús 
 
