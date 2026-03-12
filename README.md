@@ -12,21 +12,7 @@
 
 Aquí escribe qué necesitas que instale para ejecutar tu código:
 
-- import pandas as pd
- 
-- import numpy as np
-
-- import yfinance as yf
-
-- import matplotlib.pyplot as plt
-
-- %matplotlib inline
-
-- %config InlineBackend.figure_format='retina'
-
-- import warnings
-
-- warnings.filterwarnings("ignore")
+Se uso el código de la página proporcionada.
 
 
 ## Visualiza el precio de las acciones del S&P500 de los últimos 5 años, ¿dependen del precio anterior? ¿cómo argumentarías tu respuesta matemáticamente?
@@ -34,15 +20,17 @@ El precio del S&P500 muestra una fuerte dependencia temporal. Matemáticamente p
 
 
 ## Visualiza el precio de las acciones del S&P500 de los últimos 5 años, ¿los rendimientos de las acciones del S&P500 de los últimos 5 años dependen del rendimiento anterior? ¿cómo argumentarías tu respuesta matemáticamente?
-A diferencia de los precios, los rendimientos del S&P500 presentan muy poca autocorrelación. Empíricamente se observa que $Corr(r_t,r_{t-1}\approx 0$ Esto sugiere que los rendimientos se comportan como una variable aproximadamente independiente en el tiempo, consistente con la hipótesis de mercado eficiente.
+A diferencia de los precios, los rendimientos del S&P500 presentan muy poca autocorrelación. Empíricamente se observa que $Corr(r_t,r_{t-1})\approx 0$. Esto sugiere que los rendimientos se comportan como una variable aproximadamente independiente en el tiempo, consistente con la hipótesis de mercado eficiente.
 
 ## ¿Cómo intentarías predecir los rendimientos del S&P500?
+Para predecir rendimientos se podrían utilizar modelos de series de tiempo como ARIMA o modelos de volatilidad como GARCH. También es posible usar regresiones con variables macroeconómicas o técnicas de aprendizaje automático. Sin embargo, la capacidad predictiva suele ser limitada debido a la baja autocorrelación de los rendimientos.
 
 ## ¿Debería invertir todos mis ahorros en CETES ó en el S&P500 (suponiendo que se mantiene el retorno histórico) a 1 año?
-
+A un horizonte de 1 año, CETES ofrece menor riesgo y mayor certidumbre en el rendimiento. El S&P500 tiene un retorno esperado mayor, pero también una volatilidad significativa. Por lo tanto, para un horizonte corto podría ser más prudente invertir en CETES.
 ## ¿Cambiaría tu respuesta anterior si sólo invirtieras fondos discrecionales (i.e. que su pérdida no afecta de forma sustancial tu patrimonio)?
-
+Si el dinero es discrecional (es decir, su pérdida no afecta de forma sustancial el patrimonio), el S&P500 puede ser una opción razonable debido a su mayor retorno esperado, aceptando el mayor riesgo.
 ## ¿Cambiaría alguna de tus respuestas anteriores si el plazo aumentara de 1 año a 20 años?
+A un horizonte de 20 años, históricamente el S&P500 ha superado el rendimiento de instrumentos libres de riesgo como CETES. Además, en horizontes largos la volatilidad relativa tiende a reducirse, por lo que la inversión en el S&P500 suele ser más atractiva.
 
 ## Conclusión
 
